@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Control de Lámpara</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      padding: 20px;
+      font-size: 20px;
+      margin: 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: #4CAF50;
+      color: white;
+    }
+    button#off {
+      background-color: #f44336;
+    }
+  </style>
+</head>
+<body>
+  <h1>Control de Lámpara</h1>
+  
+  <button onclick="location.href='/on'">Encender</button>
+  <button id="off" onclick="location.href='/off'">Apagar</button>
+
+</body>
+</html>
